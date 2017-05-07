@@ -20,7 +20,9 @@ public class HelloContorller
 	public List<String> listJavaBooks()
 	{
 		List<String> books = new ArrayList<>(2);
+		System.out.println(books.toString());
 		Collections.addAll(books, "Thinking in Java", "Spring In Action");
+		System.out.println(books.toString());
 		return books;
 	}
 }
